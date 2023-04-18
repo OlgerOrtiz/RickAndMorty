@@ -34,8 +34,8 @@ function App() {
     <div className="App">
       <article className='App__Container--Global'>
         <section className='App__SloganTop'>
-          <img src="../public/image/fondo-slogan.png" alt="wallPaper Rick and Morty" />
-          <img src="../public/image/imageTitle.svg" alt="Rick and Morty" />
+          <img src="image/fondo-slogan.png" alt="wallPaper Rick and Morty" />
+          <img src="image/imageTitle.svg" alt="Rick and Morty" />
         </section>
         <form className='App__Form' onSubmit={handleSubmit}>
           <input type="Number" ref={inputDimension} placeholder='Dimension #   ' required />
