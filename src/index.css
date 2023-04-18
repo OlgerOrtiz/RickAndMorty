@@ -1,0 +1,51 @@
+:root {
+  --colorbg: rgb(8, 54, 59);
+  --color1: rgb(146, 226, 25);
+  --color2: rgb(6, 39, 43);
+  --color3: rgb(36, 36, 36);
+  --color4: rgb(142, 142, 142);
+  --color5: rgb(255, 255, 255);
+  --color6: rgb(0, 0, 0);
+  --colorAlive: rgb(0, 255, 6);
+  --colorDead: rgb(255, 0, 0);
+  --colorShadowButton: rgba(25, 112, 51, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--colorbg);
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  border: 0;
+  font-family: inherit;
+}

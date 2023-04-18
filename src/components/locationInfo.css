@@ -1,0 +1,37 @@
+.LocationInfo__Content {
+    min-width: 335px;
+    width: 90%;
+    max-width: 500px;
+    background-color: var(--color2);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.5rem .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.LocationInfo__Title {
+    margin-bottom: 1rem;
+    color: var(--color1);
+}
+
+.LocationInfo__List {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.LocationInfo__List--Data {
+    display: flex;
+    flex-direction: column;
+    color: var(--color5);
+    line-height: 1.5rem;
+}
+
+.LocationInfo__List--Data span {
+    color: var(--color4);
+    font-size: small;
+}

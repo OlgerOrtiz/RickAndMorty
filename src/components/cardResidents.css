@@ -1,0 +1,87 @@
+.CardResident__Content {
+    background-color: var(--color2);
+    width: 280px;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 7px solid var(--color4);
+    position: relative;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .5)
+}
+
+.Header__Name {
+    color: var(--color1);
+    text-align: center;
+    margin-top: .5em;
+}
+
+.Header__Status {
+    background-color: var(--color2);
+    position: absolute;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    padding: .4em .8em .4em 0;
+    gap: .5em;
+    border-radius: 0 .5em .5em 0;
+}
+
+.Header__Status--Circle {
+    width: 15px;
+    aspect-ratio: 1;
+    background-color: var(--color4);
+    border-radius: 50%;
+}
+
+.Header__Status--Info {
+    color: var(--color4);
+    font-weight: bold;
+}
+
+.Header__Status--Circle.Alive {
+    background-color: var(--colorAlive);
+}
+
+.Header__Status--Info.Alive {
+    color: var(--colorAlive);
+}
+
+.Header__Status--Circle.Dead {
+    background-color: var(--colorDead);
+}
+
+.Header__Status--Info.Dead {
+    color: var(--colorDead);
+}
+
+.CardResident__Line {
+    border-color: var(--color4);
+    opacity: .5;
+    margin: .5em 0;
+}
+
+.CardResident__Body {
+    display: flex;
+    align-items: center;
+    height: 262px;
+}
+
+.CardResident__Body--Info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: .5em;
+    gap: .5em 1em;
+    color: var(--color5);
+}
+
+.Info__Data {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .4em;
+}
+
+.Info__Label {
+    font-size: .7rem;
+    color: var(--color4);
+}
